@@ -53,7 +53,7 @@ class Home extends StatelessWidget {
                   fontSize: 24,
                   fontWeight: FontWeight.w600,
                 ),
-                padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                padding: EdgeInsets.symmetric(horizontal: 22, vertical: 10),
               ),
               onPressed: () {
                 print('pressed');
