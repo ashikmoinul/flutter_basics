@@ -49,6 +49,11 @@ class Home extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8),
                   side: BorderSide(color: Colors.black, width: 2),
                 ),
+                textStyle: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.w600,
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               ),
               onPressed: () {
                 print('pressed');
