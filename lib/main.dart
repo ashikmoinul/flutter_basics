@@ -35,33 +35,8 @@ class Home extends StatelessWidget {
           color: Colors.black,
         ),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            //Text('Center', style: TextStyle(color: Colors.black),),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.red,
-                foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8),
-                  side: BorderSide(color: Colors.black, width: 2),
-                ),
-                textStyle: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.w600,
-                ),
-                padding: EdgeInsets.symmetric(horizontal: 22, vertical: 10),
-              ),
-              onPressed: () {
-                print('pressed');
-              },
-              child: Text('Next'),
-            ),
-          ],
-        ),
+      body: ListView(
+
       ),
     );
   }
