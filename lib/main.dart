@@ -58,8 +58,46 @@ class Home extends StatelessWidget {
               onPressed: () {
                 print('pressed');
               },
-              child: Text('Next'),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text('Next'),
+                ],
+              ),
             ),
+            TextButton(
+              style: TextButton.styleFrom(
+                foregroundColor: Colors.red,
+                textStyle: TextStyle(fontSize: 24),
+              ),
+              onPressed: () {},
+              child: Text('Text'),
+            ),
+            IconButton(
+              onPressed: () {
+                print('Tapped in the button');
+              },
+              icon: Icon(Icons.add_circle),
+            ),
+            GestureDetector(
+              onTap: () {
+                print('On tap detected');
+              },
+              onDoubleTap: () {print('double tap detected');},
+              onLongPress: () {print('long tap detected');},
+
+              child: Column(
+                children: [
+                  Text('Gesture Detector'),
+                  Icon(Icons.add_circle),
+                  Row(
+                    children: [
+                      Text('This is a row'),
+                    ],
+                  )
+                ],
+              ),
+            )
           ],
         ),
       ),
