@@ -35,9 +35,7 @@ class Home extends StatelessWidget {
           color: Colors.black,
         ),
       ),
-      body: ListView(
 
-      ),
     );
   }
 }
