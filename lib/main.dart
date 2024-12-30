@@ -94,7 +94,7 @@ class Home extends StatelessWidget {
                     children: [
                       Text('This is a row'),
                     ],
-                  )
+                  ),
                 ],
               ),
             )
