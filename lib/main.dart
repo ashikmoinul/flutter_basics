@@ -35,6 +35,7 @@ class Home extends StatelessWidget {
           color: Colors.black,
         ),
       ),
+
     );
   }
 }
