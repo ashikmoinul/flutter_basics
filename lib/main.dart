@@ -1,5 +1,4 @@
-// Buttons (ElevatedButton, TextButton, IconButton, GestureButton, InkWell) | TextField
-// Container | Rich-text
+// Navigator | Theme
 
 import 'package:flutter/material.dart';
 
@@ -35,7 +34,6 @@ class Home extends StatelessWidget {
           color: Colors.black,
         ),
       ),
-
     );
   }
 }
